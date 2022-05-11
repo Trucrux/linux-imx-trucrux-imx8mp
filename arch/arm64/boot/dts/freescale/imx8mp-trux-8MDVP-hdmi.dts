@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Copyright 2021 Variscite Ltd.
+ */
+#include "imx8mp-trux-8MDVP.dtsi"
+#include "imx8mp-trux-hdmi.dtsi"
+
+/{
+	model = "Trucrux TRUX-MX8M-PLUS HDMI on 8MDVP 2.x";
+};

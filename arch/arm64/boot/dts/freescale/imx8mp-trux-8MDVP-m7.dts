@@ -1,0 +1,33 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Copyright 2019 NXP
+ * Copyright 2020-2021 Variscite Ltd.
+ */
+
+#include "imx8mp-trux-8MDVP.dts"
+#include "imx8mp-trux-common-m7.dtsi"
+
+/ {
+	model = "Trucrux TRUX-MX8M-PLUS M7 on 8MDVP 2.x";
+};
+
+/*
+ * ATTENTION: M7 may use IPs like below
+ * ECSPI1, I2C3, UART3, PWM3, SDMA1
+ */
+
+&uart3 {
+	status = "disabled";
+};
+
+&i2c3 {
+	status = "disabled";
+};
+
+&ecspi1 {
+	status = "disabled";
+};
+
+&sdma1 {
+	status = "disabled";
+};

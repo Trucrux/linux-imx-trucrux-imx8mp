@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Copyright 2021 Variscite Ltd.
+ */
+
+#include "imx8mp-trux-8MDVP-legacy.dtsi"
+
+/{
+	model = "Trucrux TRUX-MX8M-PLUS LVDS on 8MDVP 1.x";
+};
